@@ -3,11 +3,11 @@
 ## Linear Regression to Predict MPG
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-    * _ Based on a 0.05 of significance lever the intercept and vehicle_length, ground_clearance variables rejected Ho (null hypothesis) therefore they do not provide random variance to mpg values. _
+    * Based on a 0.05 of significance lever the intercept and vehicle_length, ground_clearance variables rejected Ho (null hypothesis) therefore they do not provide random variance to mpg values.
 - Is the slope of the linear model considered to be zero? Why or why not?
-    * _ No, slope is not considered 0 as the regression 5.35e-11 p-value rejected Ho (null hypothesis) _
+    * No, slope is not considered 0 as the regression 5.35e-11 p-value rejected Ho (null hypothesis)
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-    * _ This multilinear regression has a R squared of 0.7149, ~71.5% will effectively predict the mpg which is much better than chance but not ideal. _
+    * This multilinear regression has a R squared of 0.7149, ~71.5% will effectively predict the mpg which is much better than chance but not ideal.
 
 As reference above answers were determined based on the following R Linear regression results and statistics:
 
@@ -69,17 +69,17 @@ Hypothesis.
 ## Study Design: MechaCar vs Competition
 
 - What metric or metrics are you going to test? 
-    * _ MechaCar model MPG performance is not significally impacted by the drive type (AWD vs non-AWD mode) but competitors vehicles are; meaning that customers can select any drive mode without compromising fuel efficiency. _  
+    * MechaCar model MPG performance is not significally impacted by the drive type (AWD vs non-AWD mode) but competitors vehicles are; meaning that customers can select any drive mode without compromising fuel efficiency.
 - What is the null hypothesis or alternative hypothesis?
-    * _ Ho: There is no difference in MPG distribution between MechaCar and competitors when AWD mode is on _
-    * _ Ha:There is difference in MPG distribution between MechaCar and competitors when AWD mode is on _
+    * Ho: There is no difference in MPG distribution between MechaCar and competitors when AWD mode is on
+    * Ha:There is difference in MPG distribution between MechaCar and competitors when AWD mode is on
 
 - What statistical test would you use to test the hypothesis? And why?
-    * _ One Sample T-test; because AWD is a Dichotomous independent variable and MPG is a continuous dependent variable. This stadistical test needs to compare MechaCar mean vs the population distributiion (All competitors) _
+    * One Sample T-test; because AWD is a Dichotomous independent variable and MPG is a continuous dependent variable. This stadistical test needs to compare MechaCar mean vs the population distributiion (All competitors)
  
 - What data is needed to run the statistical test?
-    * _ All vehicle manufacturers models with MPG distributions when AWD is on and when AWD is off.
+    * All vehicle manufacturers models with MPG distributions when AWD is on and when AWD is off.
         in other words for each model:
             - AWD On: MPG - city, MPG-highway 
             - AWD Off: MPG - city, MPG-highway 
-            - AWD Not available: MPG - city, MPG-highway _
+            - AWD Not available: MPG - city, MPG-highway
